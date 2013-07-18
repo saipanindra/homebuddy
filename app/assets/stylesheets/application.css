@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-image:url('../images/bluegrunge.jpg');
+  background-image:url('bluegrunge.jpg');
   padding: 200px;
   font-size: 12px;
 }
@@ -22,6 +22,7 @@ body {
 #code {
   font-family: Consolas, monaco, monospace;
   background: #000;
+  color:#fff;
   margin: 0 auto;
   width: 200px;
   padding: 50px;
@@ -29,7 +30,7 @@ body {
   /* border-radius */
   -webkit-border-radius: 2px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   /* box-shadow */
   -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;

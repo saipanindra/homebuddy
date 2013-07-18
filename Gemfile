@@ -7,11 +7,15 @@ gem 'rails', '3.2.13'
 
 #gem 'sqlite3'
 group :development, :test do
-gem "rspec", "~>2.14.1"
-gem "rspec-rails", ">= 2.0.0.beta"
-gem "capybara", "~>1.1.2"
+	gem "rspec", "~>2.14.1"
+	gem "rspec-rails", ">= 2.0.0.beta"
+	gem "capybara", "~>1.1.2"
+        gem "pg", "~>0.15.1"
 end
+
+
 gem "pg", "~>0.15.1"
+
 
 
 
