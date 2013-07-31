@@ -58,7 +58,6 @@ module Homebuddy
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-    GIT_PATH="https://github.com/saipanindra/homebuddy"
   end
   
 
