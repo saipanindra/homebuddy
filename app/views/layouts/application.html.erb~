@@ -12,13 +12,16 @@
   <body>
 	  <%= render 'layouts/header' %> 
     <main role="main">
-      <div id = "wrap">
-	      <div id ="main" class = "container clear-top">
-		      <%= yield %>
-	      </div>
-      </div>
-      <%= render 'layouts/footer' %>
-
+      <div class="container">
+        <div class="content">
+           <div class="row">
+            <div class="span12">
+              <%= render 'layouts/messages' %>
+              <%= yield %>
+            </div>
+          </div>
+         <%= render 'layouts/footer' %>
+        </div>
     </main>
   </body>
 
