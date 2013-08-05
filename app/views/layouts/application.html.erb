@@ -12,11 +12,7 @@
   <body>
 	  <%= render 'layouts/header' %> 
     <main role="main">
-      <div id = "wrap">
-	      <div id ="main" class = "container clear-top">
-		      <%= yield %>
-	      </div>
-      </div>
+      <%= yield %>
       <%= render 'layouts/footer' %>
 
     </main>
