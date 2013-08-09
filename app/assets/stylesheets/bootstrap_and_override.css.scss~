@@ -1,3 +1,37 @@
 @import "bootstrap";
-body { padding-top : 60px; }
 @import "bootstrap-responsive";
+body { padding-top : 60px; }
+
+/* mixins, variables, etc  */
+
+@mixin box_sizing {
+	-moz-box-sizing: border-box;
+	-webkit-bix-sizing: border-box;
+	box-sizing: border-box;
+}
+/* debug */
+
+.debug_dump {
+	clear: both;
+	float: left;
+	width: 100%;
+        margin-top: 45px;
+        @include box_sizing;
+}	
+      	/*mixins, variables, etc */
+
+/* forms */
+
+#error_explanation {
+	color: #f00;
+	ul {
+		list-style: none;
+		margin: 0 0 18px 0;
+	}
+
+}
+
+.field_with_errors {
+	@extend .control-group;
+	@extend .error;
+}

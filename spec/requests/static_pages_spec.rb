@@ -29,5 +29,9 @@ subject { page }
 	  it_should_behave_like "all static pages"
   end
 
+  
+
+ 			  
+
 end
 

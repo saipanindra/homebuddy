@@ -1,10 +1,13 @@
 Homebuddy::Application.routes.draw do
+  get "users/new"
   # The priority is based upon order of creation:
   # first created -> highest priority.
+  resources :users
   root :to => 'static_pages#home'
   get "static_pages/wip"
   match '/about', to: 'static_pages#about', via: 'get'
   match '/home', to: 'static_pages#home', via: 'get'
+  match '/signup', to: 'users#new', via: 'get'
   # Sample of regular route:
   #
   #   match 'products/:id' => 'catalog#view'
